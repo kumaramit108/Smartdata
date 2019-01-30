@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Softuvo\AppData\Local\Temp\testng-eclipse-1566642873\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.SearchPageTest" hash-for-method="searchText">searchText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchText">
+                  </a> <!-- searchText -->
+                  <span class="method-name">searchText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Softuvo\AppData\Local\Temp\testng-eclipse-1566642873\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testcases.SearchPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchText')
+data.setCell(0, 2, 'com.qa.testcases.SearchPageTest')
+data.setCell(0, 3, 5202);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Accessibility links
+Skip to main contentAccessibility help
+Accessibility feedback
+Sign in
+	
+Complete your Privacy Checkup
+
+Review your settings to make sure that they are still right for you
+
+NO, THANKSCOMPLETE
+
+
+
+
+Search modes
+AllMapsBooksImagesNewsMore
+SettingsTools
+About 68,70,00,000 results (0.53 seconds) 
+Search Results
+Web results
+Download Free Java Software
+https://www.java.com/download/
+Download Java for your desktop computer now! ... Java software for your computer, or the Java Runtime Environment, is also referred to as the Java Runtime, Runtime Environment, Runtime, JRE, Java Virtual Machine, Virtual Machine, Java VM, JVM, VM, Java plug-in, Java plugin, Java add ...
+Twitter results
+Java (@java) · Twitter
+https://twitter.com/java
+Jakarta EE Milestone - Eclipse GlassFish 5.1 is Java EE 8 Compatible #JavaEE8 #JakartaEE blogs.oracle.com/theaqu…
+4 hours ago · Twitter
+Eclipse Glassfish 5.1.0.RC2, the Jakarta EE implementation, published in Maven central. blog.supol.cz/?p=131
+15 hours ago · Twitter
+New Release Candidate #Gradle 5.2 Read the Gradle 5.2 guide to learn about upgrading from Gradle 5.0. docs.gradle.org/5.2-rc-… pic.twitter.com/DzhrSQd…
+16 hours ago · Twitter
+#Java library to help you handle failures in Java 8 + jaxenter.com/failsafe-f… pic.twitter.com/7wLt6mF…
+16 hours ago · Twitter
+#Java experts share pro tips for developer relations developer.okta.com/blog… pic.twitter.com/ErngkJR…
+18 hours ago · Twitter
+View on Twitter
+Web results
+java.com: Java + You
+https://www.java.com/
+About Java. Go Java Java + Alice Java + Greenfoot Oracle Academy for Educators Get Java Magazine for Free · Select Language | About Java | Support ...
+Introduction to Java - W3Schools
+https://www.w3schools.com/java/java_intro.asp
+What is Java? Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java. It is used for:.
+Java Tutorial - W3Schools
+https://www.w3schools.com/java/
+Java is used to develop mobile apps, web apps, desktop apps, games and much ... Our "Show Java" tool makes it easy to learn Java, it shows both the code and ...
+People also ask
+What is the use of Java?
+
+Is Java still necessary?
+
+Is it safe to use Java?
+
+What is latest version of Java?
+
+Feedback
+Web results
+Java Getting Started - W3Schools
+https://www.w3schools.com/java/java_getstarted.asp
+Java Install. Some PCs might have Java already installed. To check if you have Java installed on a Windows PC, search in the start bar for Java or type the ...
+Java Software | Oracle India
+https://www.oracle.com/in/java/
+Java can reduce costs, drive innovation, and improve application services as the programming language of choice for IoT, enterprise architecture, and cloud ...
+Java Resources for Students, Hobbyists and More | go.Java | Oracle
+https://go.java/index.html
+Learn how Java powers the innovation behind our digital world. Harness this potential with Java resources for student coders, hobbyists, developers, and IT ...
+Top stories
+Handling failures in Java just got easier thanks to Failsafe
+JAXenter·1 day ago
+"Minecraft has opened up Java to a range of people who probably don't even realise the skills they have acquired through it"
+JAXenter·23 hours ago
+Java will facilitate mainstream blockchain adoption
+JAXenter·1 hour ago
+More for java
+Web results
+Java Programming Language - GeeksforGeeks
+https://www.geeksforgeeks.org/java/
+Java is one of the most popular and widely used programming language and platform. A platform is an environment that helps to develop and run programs ...
+Searches related to java
+java 32 bit
+
+java 64 bit
+
+java jdk
+
+java verify
+
+java oracle
+
+java wiki
+
+java 10
+
+java indonesia
+
+Page navigation
+1	
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Next
+Complementary results
+Knowledge result
+Java
+Computer programming language
+
+DescriptionJava is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. Wikipedia
+Designed by: James Gosling
+Platform: Microsoft Windows
+Latest release: Java 10 (March 20, 2018)
+Influenced: Ada, BeanShell, C#, Chapel, Clojure, ECMAScript, MORE
+Influenced by: Ada, C++, C#, Eiffel, Mesa, Modula-3, Oberon, Objective-C, UCSD Pascal, Object Pascal
+Java software
+View 15+ more
+
+Java
+
+Java Development Kit
+
+Spring Framework
+
+Apache Maven
+
+NetBeans
+People also search for
+View 10+ more
+
+Python
+
+JavaScript
+
+C++
+
+C
+
+Class
+Feedback
+Footer links
+India Sector 75, Sahibzada Ajit Singh Nagar, Punjab - From your Internet address - Use precise location - Learn more
+HelpSend feedbackPrivacyTerms
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchText</span>
+                <span class="method-start">8405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">13614 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
